@@ -14,8 +14,8 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
-                        .allowedOrigins("*")
-                        .allowedMethods("GET", "POST", "OPTIONS")
+                        .allowedOrigins("https://page-pulse-ochre.vercel.app")
+                        .allowedMethods("*")
                         .allowedHeaders("*")
                         .maxAge(3600);
             }
