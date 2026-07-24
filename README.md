@@ -6,6 +6,11 @@ Page Pulse is a full-stack web application designed to instantly analyze any web
 
 The application takes a target URL from the user, fetches the HTML content of the page, and extracts key metrics such as the page title, meta description, H1 tag count, image accessibility (missing `alt` attributes), and an approximate word count. It also measures the HTTP response time and status code.
 
+## Live Demo
+
+- **Frontend (Vercel):** [https://page-pulse-ochre.vercel.app/](https://page-pulse-ochre.vercel.app/)
+- **Backend API (Render):** [https://page-pulse-jbgc.onrender.com/api/analyze](https://page-pulse-jbgc.onrender.com/api/analyze)
+
 ## Features
 
 - **Instant SEO Analysis:** Extracts page titles, meta descriptions, and header tag usage.
